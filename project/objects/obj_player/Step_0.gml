@@ -1,0 +1,44 @@
+/// @description Insert description here
+
+	if (prevkeystate!=keystate){
+		prevkeystate=keystate
+		}
+	keystate=(	keyboard_check(ord("S"))<<3)+(keyboard_check(ord("A"))<<2)+(	keyboard_check(ord("W"))<<1)+keyboard_check(ord("D"))
+	hkey=keystate&HKEYMASK
+	vkey=keystate&VKEYMASK
+	if (vkey==VKEYMASK){
+		if (vnegmask==0){
+	vnegmask=prevkeystate&VKEYMASK
+	
+	}else {vnegmask=0;}
+	}
+	if (hkey==HKEYMASK){
+		if (hnegmask==0){
+	hnegmask=prevkeystate&HKEYMASK
+	
+	}
+	} else {hnegmask=0;}
+	
+	hlatest=hkey-hnegmask;
+	vlatest=vkey-vnegmask;
+	
+	if (hlatest==4){hlatest=-1}
+	if (vlatest==8){vlatest=1}
+	if (vlatest==2){vlatest=-1}
+	if (hlatest!=0){
+		if (hspeed<maxspeed*(hlatest)){
+	hspeed+=(accel)} else {hspeed-=(accel)}
+	} else {
+	if (hspeed!=0){
+	hspeed*=0.5
+	}
+	}
+	if (vlatest!=0){
+		if (vspeed>maxspeed*(vlatest)){
+	vspeed-=(accel)} else {vspeed+=(accel)}
+	} else {
+	if (vspeed!=0){
+	vspeed*=0.5
+	}
+	}
+	

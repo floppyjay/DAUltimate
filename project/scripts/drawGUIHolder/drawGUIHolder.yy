@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"drawGUIHolder",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"drawGUIHolder",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
