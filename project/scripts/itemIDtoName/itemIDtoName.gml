@@ -3,7 +3,7 @@
 function itemIDtoName(itemid){
 switch(itemid){
 case ITEM_PISTOL:
-return "SPistol"
+return "Pistol"
 
 case ITEM_KNIFE:
 return "Knife"
