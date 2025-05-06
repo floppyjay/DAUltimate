@@ -32,6 +32,7 @@ enum DPAD_STATE
 
 }
 hunger=0;
+hand=0
 thirst=0;
 health=100;
 item1 =
@@ -46,9 +47,12 @@ item2 =
 }
 
 //item3 = newBackpack(newItemUses(ITEM_PMAG,90))
-inventory=[newItem(ITEM_PISTOL),newItem(ITEM_KNIFE),newBackpack(newItemUses(ITEM_PMAG,90))]
+inventory=[newItem(ITEM_PISTOL),newItemUses(ITEM_KNIFE,90),newBackpack(newItemUses(ITEM_PMAG,2),newItemUses(ITEM_PMAG,2))]
 
 alarm[0]=2
+wepdir=0;
+pixelx=0;
+pixely=0;
 my_dir = PLAYERDIR.NONE;
 lastkey=0;
 lastreleased=0;
@@ -76,3 +80,5 @@ LEFT=2,
 
 DOWN=3,
 }
+bump=0
+bumpb=0

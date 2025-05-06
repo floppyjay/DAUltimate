@@ -12,6 +12,8 @@ case ITEM_BACKPACK:
 return spr_backpack
 case ITEM_PMAG:
 return spr_bulletmagezine
+case ITEM_NONE:
+return invisible
 default:
 return spr_hand
 }

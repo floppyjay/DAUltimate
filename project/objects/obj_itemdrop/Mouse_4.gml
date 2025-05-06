@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-clicking=true;
-clickx=mouse_x
-clicky=mouse_y
+
+initx=mouse_x
+inity=mouse_y
+difx=mouse_x-x
+dify=mouse_y-y
+
+moving=true

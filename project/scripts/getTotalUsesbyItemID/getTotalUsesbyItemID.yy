@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"getTotalUsesbyItemID",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"getTotalUsesbyItemID",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

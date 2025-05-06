@@ -6,7 +6,8 @@ playercentery=(obj_player.y-120+12)
 //trumousey=(display_mouse_get_y()-window_get_y())/view_hport[0]*240
 trumousex=mouse_x-playercenterx
 trumousey=mouse_y-playercentery
+if (!layer_get_visible("UILayer_2")){
 x=playercenterx+((trumousex-160)/4)
 y=playercentery+((trumousey-120)/4)
-if (trumousex<160){facingleft=true}else {facingleft=false}
+if (trumousex<160){facingleft=true}else {facingleft=false}}
 camera_set_view_pos(view_camera[0],x, y)

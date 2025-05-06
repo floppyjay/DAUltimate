@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-clicking=true;
-clickx=mouse_x
-clicky=mouse_y
+image_xscale=(dsin(direction))
+direction+=3
+alarm[0]=1
