@@ -68,7 +68,7 @@
                   ],"flexDirection":0,"height":{"unit":2,"value":100.0,},"justifyContent":1,"layoutDirection":1,"name":"BACKGROUND","nodeColour":4282931954,"positionBottom":{"unit":2,"value":0.0,},"positionLeft":{"unit":1,"value":0.0,},"positionRight":{"unit":2,"value":0.0,},"positionType":2,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":100.0,},},
               ],"flexDirection":0,"gapColumn":3.0,"height":{"unit":3,"value":18.0,},"justifyContent":1,"layoutDirection":1,"maxHeight":{"unit":0,"value":42.0,},"name":"FlexPanel_3","nodeColour":4294076488,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":86.0,},},
           ],"flexDirection":0,"height":{"unit":3,"value":16.0,},"justifyContent":1,"name":"FlexPanel_1","nodeColour":4287361608,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":16.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_2","nodeColour":4282970708,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_2","nodeColour":4282970708,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
     {"$GMRUILayer":"v1","%Name":"UILayer_1","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"alignSelf":3,"children":[
             {"$GMRFlexPanel":"","%Name":"FlexPanel_1","alignItems":2,"children":[

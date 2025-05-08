@@ -34,6 +34,7 @@ enum DPAD_STATE
 hunger=0;
 hand=0
 thirst=0;
+canmove=true;
 health=100;
 item1 =
 {

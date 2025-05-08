@@ -11,3 +11,5 @@ x=playercenterx+((trumousex-160)/4)
 y=playercentery+((trumousey-120)/4)
 if (trumousex<160){facingleft=true}else {facingleft=false}}
 camera_set_view_pos(view_camera[0],x, y)
+chunkx=floor((mouse_x+192)/512)
+chunky=floor((mouse_y+152)/288)

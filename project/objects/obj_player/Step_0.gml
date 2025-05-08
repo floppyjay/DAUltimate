@@ -25,6 +25,8 @@
 	if (hlatest==4){hlatest=-1}
 	if (vlatest==8){vlatest=1}
 	if (vlatest==2){vlatest=-1}
+	
+	if (canmove==true){
 	if (hlatest!=0){
 		if (hspeed<maxspeed*(hlatest)){
 	hspeed+=(accel)} else {hspeed-=(accel)}
@@ -40,7 +42,7 @@
 	if (vspeed!=0){
 	vspeed*=0.5
 	}
-	}
+	}} else {speed*=0.5}
 	
 	if ((game.trumousey<190) && !layer_get_visible("UILayer_2")){
 	if (mouse_check_button_pressed(mb_left)){

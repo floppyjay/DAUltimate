@@ -13,3 +13,7 @@ window_set_size( 1024, 768 );
 alarm[0]=10
 layer_set_visible("UIlayer_2",false)
 
+chunkx=floor((mouse_x+192)/512)
+chunky=floor((mouse_y+152)/288)
+
+//tilemap_set_at_pixel(tilemap_element_id, tiledata, x, y)

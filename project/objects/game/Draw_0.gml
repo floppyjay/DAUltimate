@@ -8,7 +8,8 @@ surface_set_target(guisurf);
 draw_clear_alpha(c_white,0);
 //draw_clear(t)
 //GUI DRAW EVENTS
-draw_text(0,0,((obj_player.vlatest)))
+draw_text(0,0,chunkx)
+draw_text(0,32,chunky)
 
 
 
