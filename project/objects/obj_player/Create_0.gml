@@ -31,7 +31,7 @@ enum DPAD_STATE
 	UPDOWN=12,
 
 }
-hunger=0;
+hunger=100;
 hand=0
 thirst=0;
 canmove=true;

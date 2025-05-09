@@ -6,7 +6,9 @@ for (var i=0;i<3;i++){
 if (obj_player.inventory[i].itemid==item){
 	if (obj_player.inventory[i].uses>0){
 obj_player.inventory[i].uses--
-return true;}
+return true;} else if (isItemIDdestroyable(item)) {
+obj_player.inventory[i]=initItem()
+}
 }
 
 if (obj_player.inventory[i].itemid==ITEM_BACKPACK){
@@ -16,13 +18,15 @@ if (bp.inventory[j].itemid==item){
 	if (bp.inventory[j].uses>0){
 bp.inventory[j].uses--
 return true;
+} else if (isItemIDdestroyable(item)){
+bp.inventory[j]=initItem()
 }
 }
 }
 }
 
 }
-
+refreshGUIitemslots()
 return false;
 
 }

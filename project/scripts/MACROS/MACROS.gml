@@ -6,4 +6,5 @@
 #macro ITEM_KNIFE 2
 #macro ITEM_BACKPACK 3
 #macro ITEM_PMAG 4
+#macro ITEM_BERRY 5
 #macro ITEM_NONE 0

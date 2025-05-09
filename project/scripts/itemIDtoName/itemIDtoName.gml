@@ -12,6 +12,8 @@ case ITEM_BACKPACK:
 return "Backpack"
 case ITEM_PMAG:
 return "Pistol Mag."
+case ITEM_BERRY:
+return "Berries"
 case ITEM_NONE:
 return "None"
 default:

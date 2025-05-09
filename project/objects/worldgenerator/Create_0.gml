@@ -18,7 +18,7 @@ max_x=x
 genvh=false
 function generateVFloorline(){
 repeat (16){
-with (instance_create_depth(x,y,0,obj_floor)){
+with (instance_create_depth(x,y,10,obj_floor)){
 image_index=irandom(2)
 }
 x+=32}
@@ -43,7 +43,10 @@ x=game.chunkx*512
 	instance_create_depth(x+random(512),y+random(288),-1,obj_bush)
 	}
 repeat(irandom(2)){
-	instance_create_depth(x+random(512),y+random(288),-1,obj_zombie)
+	instance_create_depth(x+random(512),y+random(288),1,obj_zombie)
+}
+repeat(irandom(2)){
+	instance_create_depth(x+random(512),y+random(288),0,obj_tree)
 }
 }
 //loadChunk()

@@ -22,6 +22,10 @@ direction:handproperties.dir,
 if (item.uses>0){instance_create_layer(handproperties.px,handproperties.py,0,obj_slash,bulletproperties)}
 variable_instance_set(self, handproperties.b,-5);
 break;
+case ITEM_BERRY:
+if (consumeItemByID(ITEM_BERRY)){obj_player.hunger-=1} else {item=initItem()}
+
+break;
 }
 
 return item
