@@ -18,3 +18,16 @@ var handposx=(x+(dcos(wepdir)*6))
 if (image_xscale=-1){
 //draw_self()
 }
+
+for (var i=0;i<9;i++){
+	var rect2={
+//x:(game.chunkx-512)+((i%3)*512),
+//y:(game.chunky-288)+(floor(i/3)*288),
+x:(game.chunkx*512),
+y:(game.chunky*288),
+w:512,
+h:288
+}
+
+//draw_rectangle(rect2.x,rect2.y,rect2.x+rect2.w,rect2.h+rect2.y,true)
+}

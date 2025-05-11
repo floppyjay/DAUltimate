@@ -25,3 +25,4 @@ surface_reset_target();
 draw_surface(guisurf, x, y);
 //surface_free(guisurf);}
 }
+

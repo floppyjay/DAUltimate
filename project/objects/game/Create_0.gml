@@ -15,5 +15,5 @@ layer_set_visible("UIlayer_2",false)
 
 chunkx=floor((mouse_x+192)/512)
 chunky=floor((mouse_y+152)/288)
-
+instance_create_depth(500*32,500*32,0,obj_player)
 //tilemap_set_at_pixel(tilemap_element_id, tiledata, x, y)

@@ -14,6 +14,8 @@ case ITEM_PMAG:
 return spr_bulletmagezine
 case ITEM_BERRY:
 return spr_berry
+case ITEM_JUG:
+return spr_waterjug
 case ITEM_NONE:
 return invisible
 default:

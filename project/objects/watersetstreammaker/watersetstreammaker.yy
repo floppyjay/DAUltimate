@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_floor",
+  "%Name":"watersetstreammaker",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_floor",
+  "name":"watersetstreammaker",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_grasstiles",
-    "path":"sprites/spr_grasstiles/spr_grasstiles.yy",
+    "name":"spr_water",
+    "path":"sprites/spr_water/spr_water.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -84,3 +84,7 @@
 	if (bumpb<>0){
 	bumpb*=0.5
 	}
+	
+	if (mouse_check_button_pressed(mb_middle)){
+	plopo=worldgenerator.getChunksOnScreen()
+	}

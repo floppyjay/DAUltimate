@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-var chunkx=game.chunkx
-var chunky=game.chunky
+var chunksonscreen=getChunksOnScreen()
+for (var i=0;i<array_length(chunksonscreen);i++){
+var chunkx=chunksonscreen[i].x
+var chunky=chunksonscreen[i].y
 if (chunkx>=0)&&(chunky>=0){
 var plop=chunkgeneratedmap[chunkx,chunky]
 
@@ -12,7 +14,7 @@ loadChunk()
 chunkgeneratedmap[chunkx,chunky]=true
 }
 }
-
+}
 //if ()
 
 

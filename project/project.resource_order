@@ -37,6 +37,7 @@
     {"name":"obj_zombie","order":16,"path":"objects/obj_zombie/obj_zombie.yy",},
     {"name":"Object5","order":4,"path":"objects/Object5/Object5.yy",},
     {"name":"quitbutton","order":8,"path":"objects/quitbutton/quitbutton.yy",},
+    {"name":"watersetstreammaker","order":21,"path":"objects/watersetstreammaker/watersetstreammaker.yy",},
     {"name":"worldgenerator","order":18,"path":"objects/worldgenerator/worldgenerator.yy",},
     {"name":"RoomUI","order":16,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"buildGUI","order":3,"path":"scripts/buildGUI/buildGUI.yy",},
@@ -45,6 +46,7 @@
     {"name":"findEmptySlot","order":10,"path":"scripts/findEmptySlot/findEmptySlot.yy",},
     {"name":"getTotalUsesbyItemID","order":8,"path":"scripts/getTotalUsesbyItemID/getTotalUsesbyItemID.yy",},
     {"name":"isItemIDddestroyable","order":13,"path":"scripts/isItemIDddestroyable/isItemIDddestroyable.yy",},
+    {"name":"itemIDtoMaxUses","order":14,"path":"scripts/itemIDtoMaxUses/itemIDtoMaxUses.yy",},
     {"name":"itemIDtoName","order":5,"path":"scripts/itemIDtoName/itemIDtoName.yy",},
     {"name":"itemIDtoSprite","order":4,"path":"scripts/itemIDtoSprite/itemIDtoSprite.yy",},
     {"name":"MACROS","order":1,"path":"scripts/MACROS/MACROS.yy",},
@@ -73,6 +75,7 @@
     {"name":"spr_slash","order":14,"path":"sprites/spr_slash/spr_slash.yy",},
     {"name":"spr_tree","order":22,"path":"sprites/spr_tree/spr_tree.yy",},
     {"name":"spr_water","order":21,"path":"sprites/spr_water/spr_water.yy",},
+    {"name":"spr_waterjug","order":24,"path":"sprites/spr_waterjug/spr_waterjug.yy",},
     {"name":"spr_zombieIdle","order":15,"path":"sprites/spr_zombieIdle/spr_zombieIdle.yy",},
   ],
 }

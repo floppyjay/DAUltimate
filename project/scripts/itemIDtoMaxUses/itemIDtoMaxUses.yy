@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"itemIDtoMaxUses",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"itemIDtoMaxUses",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

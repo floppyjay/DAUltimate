@@ -24,6 +24,20 @@ variable_instance_set(self, handproperties.b,-5);
 break;
 case ITEM_BERRY:
 if (consumeItemByID(ITEM_BERRY)){obj_player.hunger-=1} else {item=initItem()}
+variable_instance_set(self, handproperties.b, 10);
+break;
+
+case ITEM_JUG:
+myfloor=collision_point(mouse_x,mouse_y,obj_floor,false,true)
+if (myfloor.floortype==floortypes.water){
+	
+item.uses++
+if (item.uses>itemIDtoMaxUses(item.itemid)){item.uses=itemIDtoMaxUses(item.itemid)} else {
+myfloor.setFloorType(floortypes.grass)
+variable_instance_set(self, handproperties.b, -10);}
+} else if (item.uses>0) {item.uses--;variable_instance_set(self, handproperties.b, 10);}
+
+//if (consumeItemByID(ITEM_BERRY)){obj_player.hunger-=1} else {item=initItem()}
 
 break;
 }
