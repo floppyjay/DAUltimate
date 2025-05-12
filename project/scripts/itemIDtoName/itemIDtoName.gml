@@ -16,6 +16,8 @@ case ITEM_BERRY:
 return "Berries"
 case ITEM_JUG:
 return "Water Jug"
+case ITEM_WALL:
+return "Wall"
 case ITEM_NONE:
 return "None"
 default:

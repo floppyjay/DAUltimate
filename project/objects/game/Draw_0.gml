@@ -26,3 +26,4 @@ draw_surface(guisurf, x, y);
 //surface_free(guisurf);}
 }
 
+//draw_rectangle()

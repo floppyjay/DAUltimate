@@ -8,4 +8,5 @@
 #macro ITEM_PMAG 4
 #macro ITEM_BERRY 5
 #macro ITEM_JUG 6
+#macro ITEM_WALL 7
 #macro ITEM_NONE 0

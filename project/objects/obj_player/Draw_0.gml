@@ -18,16 +18,24 @@ var handposx=(x+(dcos(wepdir)*6))
 if (image_xscale=-1){
 //draw_self()
 }
-
-for (var i=0;i<9;i++){
-	var rect2={
-//x:(game.chunkx-512)+((i%3)*512),
-//y:(game.chunky-288)+(floor(i/3)*288),
-x:(game.chunkx*512),
-y:(game.chunky*288),
-w:512,
-h:288
+var handproperties={
+dir:wepdir
+}
+var mydir=0;
+if (((handproperties.dir<45) && (handproperties.dir>0)) || ((handproperties.dir>315)&&(handproperties.dir<360))) {
+mydir=0
+}
+if ((handproperties.dir<135) && (handproperties.dir>45)) {
+mydir=90
+}
+if ((handproperties.dir<225) && (handproperties.dir>135)) {
+mydir=180
+}
+if ((handproperties.dir<315) && (handproperties.dir>225)) {
+mydir=270
 }
 
-//draw_rectangle(rect2.x,rect2.y,rect2.x+rect2.w,rect2.h+rect2.y,true)
+if (inventory[hand].itemid==ITEM_WALL){
+draw_sprite_ext(spr_wall,0,floor(mouse_x/32)*32,floor(mouse_y/32)*32,1,1,mydir,c_white,0.5)
+//draw_rectangle((floor(mouse_x/32)*32)-16, (floor(mouse_y/32)*32)-16, (floor(mouse_x/32)*32)+16, (floor(mouse_y/32)*32)+16,true)
 }

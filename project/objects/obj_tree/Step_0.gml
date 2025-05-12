@@ -1,4 +1,4 @@
-
+event_inherited()
 
 var myinst = collision_rectangle(x-42, y, x+44,y+23, obj_player,false, true)
 

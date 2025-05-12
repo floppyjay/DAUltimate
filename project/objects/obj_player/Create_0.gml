@@ -48,7 +48,7 @@ item2 =
 }
 
 //item3 = newBackpack(newItemUses(ITEM_PMAG,90))
-inventory=[newItemUses(ITEM_JUG,2),newItemUses(ITEM_KNIFE,90),newBackpack(newItemUses(ITEM_BERRY,2),newItemUses(ITEM_PMAG,2))]
+inventory=[newItemUses(ITEM_WALL,99),newItemUses(ITEM_KNIFE,90),newBackpack(newItemUses(ITEM_BERRY,2),newItemUses(ITEM_PMAG,2))]
 
 alarm[0]=2
 wepdir=0;
@@ -72,7 +72,7 @@ vnegmask=0;
 maxspeed=2
 vlatest=0
 hlatest=0
-var plopo=false;
+
 
 enum DPAD_BUTTONS{
 	NONE=4,

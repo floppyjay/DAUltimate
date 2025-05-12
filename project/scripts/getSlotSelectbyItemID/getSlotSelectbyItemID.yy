@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"getSlotSelectbyItemID",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"getSlotSelectbyItemID",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -29,7 +29,10 @@
 	if (canmove==true){
 	if (hlatest!=0){
 		if (hspeed<maxspeed*(hlatest)){
-	hspeed+=(accel)} else {hspeed-=(accel)}
+			
+	hspeed+=(accel)
+	
+	} else {hspeed-=(accel)}
 	} else {
 	if (hspeed!=0){
 	hspeed*=0.5
@@ -85,6 +88,4 @@
 	bumpb*=0.5
 	}
 	
-	if (mouse_check_button_pressed(mb_middle)){
-	plopo=worldgenerator.getChunksOnScreen()
-	}
+	

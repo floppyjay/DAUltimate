@@ -26,7 +26,29 @@ case ITEM_BERRY:
 if (consumeItemByID(ITEM_BERRY)){obj_player.hunger-=1} else {item=initItem()}
 variable_instance_set(self, handproperties.b, 10);
 break;
+case ITEM_WALL:
+if (!collision_rectangle((floor(mouse_x/32)*32)-16, (floor(mouse_y/32)*32)-16, (floor(mouse_x/32)*32)+16, (floor(mouse_y/32)*32)+16, obj_wall,true, true)){
+if (consumeItemByID(ITEM_WALL)){} else {item=initItem()}
+variable_instance_set(self, handproperties.b, 10);
+var mydir=0;
+if (((handproperties.dir<45) && (handproperties.dir>0)) || ((handproperties.dir>315)&&(handproperties.dir<360))) {
+mydir=0
+}
+if ((handproperties.dir<135) && (handproperties.dir>45)) {
+mydir=90
+}
+if ((handproperties.dir<225) && (handproperties.dir>135)) {
+mydir=180
+}
+if ((handproperties.dir<315) && (handproperties.dir>225)) {
+mydir=270
+}
+var wallproperties={
+direction:mydir
+}
 
+instance_create_layer(floor(mouse_x/32)*32,floor(mouse_y/32)*32,0,obj_wall,wallproperties)}
+break;
 case ITEM_JUG:
 myfloor=collision_point(mouse_x,mouse_y,obj_floor,false,true)
 if (myfloor.floortype==floortypes.water){

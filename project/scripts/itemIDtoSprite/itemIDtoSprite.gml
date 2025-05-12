@@ -16,6 +16,8 @@ case ITEM_BERRY:
 return spr_berry
 case ITEM_JUG:
 return spr_waterjug
+case ITEM_WALL:
+return spr_wall
 case ITEM_NONE:
 return invisible
 default:

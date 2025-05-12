@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if (other.touchdamage>0){
 
-if (canmove){
+if (canmove==true){
 health-=other.touchdamage}
 direction=point_direction(other.x,other.y,x,y)
 speed=10
