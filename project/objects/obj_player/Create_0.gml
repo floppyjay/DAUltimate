@@ -36,6 +36,7 @@ hand=0
 thirst=0;
 canmove=true;
 health=100;
+structureid=-1
 item1 =
 {
 	itemid:ITEM_PISTOL,//pistpl

@@ -16,6 +16,7 @@ chunkgeneratedmap[i][j]=false
 max_y=y
 max_x=x
 genvh=false
+sid=0
 function generateVFloorline(){
 repeat (16){
 with (instance_create_depth(x,y,10,obj_floor)){
@@ -51,6 +52,44 @@ repeat(irandom(2)){
 repeat(choose(0,0,0,1,2)){
 	instance_create_depth(x+random(512),y+random(288),0,watersetstreammaker)
 }
+
+//4x4 structure test
+//top and bottom walls
+if (random(1)<0.5){
+for (var i=0;i<4;i++){
+with (instance_create_depth(x+(i*32)+16,y+16-32,1,obj_wall)){
+	structureid=other.sid
+direction=270
+image_angle=direction
+}
+if (i!=2){
+with (instance_create_depth(x+(i*32)+16,y+128+16,1,obj_wall)){
+		structureid=other.sid
+direction=90
+image_angle=direction
+}}
+}
+//side walls
+for (var i=0;i<4;i++){
+with (instance_create_depth(x-16,y+(i*32)+16,1,obj_wall)){
+structureid=other.sid}
+with (instance_create_depth(x+32+128-16,y+(i*32)+16,1,obj_wall)){
+		structureid=other.sid
+direction=180
+image_angle=direction
+}
+}
+
+for (var i=0;i<16;i++){
+	
+with (instance_create_depth(x+((i%4)*32),y+(floor(i/4)*32),-1,obj_ceiling)){
+	structureid=other.sid
+}
+
+}
+sid++
+}
+
 }
 //loadChunk()
 

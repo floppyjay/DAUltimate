@@ -89,3 +89,42 @@
 	}
 	
 	
+	
+	//find structure if in one
+	/*var inside=false
+	repeat(instance_number(obj_ceiling)){
+		var inst=0
+		var myinst = instance_find(obj_ceiling,inst);
+	if (collision_rectangle(myinst.x,myinst.y,myinst.x+32,myinst.y+32,self,true,false)){
+	structureid=myinst.structureid
+	inside=true
+	}
+	inst++
+	}
+	
+	if (inside==false){structureid=-1}
+	//make all ceilings invisible if within
+	repeat(instance_number(obj_ceiling)){
+		var inst=0
+		var myinst = instance_find(obj_ceiling,inst);
+
+	if (structureid==myinst.structureid){
+	visible=false
+	}
+	inst++
+	}
+	
+	if (structureid==-1){
+	//make all ceilings visbile if outside
+	repeat(instance_number(obj_ceiling)){
+		var inst=0
+		var myinst = instance_find(obj_ceiling,inst);
+
+
+	visible=true
+	
+	inst++
+	}
+	
+	}
+	*/

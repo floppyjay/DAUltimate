@@ -3,7 +3,8 @@
 
 enum floortypes{
 grass,
-water
+water,
+carpet
 }
 floortype=floortypes.grass
 frameoffset=0
@@ -18,6 +19,9 @@ break;
 
 case floortypes.water:
 sprite_index=spr_water
+break;
+case floortypes.carpet:
+sprite_index=pholder3232
 break;
 }
 }

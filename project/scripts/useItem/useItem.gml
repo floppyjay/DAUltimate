@@ -44,7 +44,8 @@ if ((handproperties.dir<315) && (handproperties.dir>225)) {
 mydir=270
 }
 var wallproperties={
-direction:mydir
+direction:mydir,
+structureid:9999999
 }
 
 instance_create_layer(floor(mouse_x/32)*32,floor(mouse_y/32)*32,0,obj_wall,wallproperties)}

@@ -10,7 +10,7 @@ var plop=chunkgeneratedmap[chunkx,chunky]
 if (plop==false){
 	x=chunkx*512
 	y=chunky*288
-loadChunk()
+loadChunk(chunkx,chunky)
 chunkgeneratedmap[chunkx,chunky]=true
 }
 }
